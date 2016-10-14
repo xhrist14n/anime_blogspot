@@ -1,0 +1,1 @@
+{"version":3,"sources":["anime_blogspot.js"],"names":["$","css"],"mappings":";;AAAAA,EACI,YAAU;AACNA,MAAE,SAAF,EAAaC,GAAb,CAAiB,SAAjB,EAA2B,MAA3B;AACH,CAHL","file":"anime_blogspot.js","sourcesContent":["$(\n    function(){\n        $(\"#navbar\").css(\"display\",\"none\");\n    }\n);"]}

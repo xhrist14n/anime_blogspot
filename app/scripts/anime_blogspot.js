@@ -1,5 +1,14 @@
+function iterate(){
+    $("#navbar").css("display","none");
+}
+
 $(
     function(){
-        $("#navbar").css("display","none");
+        setInterval(
+            function(){
+                iterate();
+            },1000
+        );
+        
     }
 );

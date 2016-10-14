@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' 
+<html 
+b:version='2' 
+class='v2' 
+expr:dir='data:blog.languageDirection' 
 xmlns='http://www.w3.org/1999/xhtml' 
 xmlns:b='http://www.google.com/2005/gml/b' 
 xmlns:data='http://www.google.com/2005/gml/data' 
@@ -11,19 +14,12 @@ xmlns:expr='http://www.google.com/2005/gml/expr'
     <meta expr:content='data:blog.isMobile?&quot;width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0&quot;:&quot;width=1100&quot;' name='viewport'/>
     <b:include data='blog' name='all-head-content'/>
     <title><data:blog.pageTitle/></title>
-
-    <b:skin><![CDATA[/*
-
-]]></b:skin>
-
-
+    <b:skin><![CDATA[/* */]]></b:skin>
     <b:include data='blog' name='google-analytics'/>
-
     <link rel="stylesheet" href="https://xhrist14n.github.io/anime_blogspot/bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="https://xhrist14n.github.io/anime_blogspot/bower_components/animate.css/animate.css" />
     <link rel="stylesheet" href="https://xhrist14n.github.io/anime_blogspot/app/styles/main.css"/>
-    <script src="https://xhrist14n.github.io/anime_blogspot/bower_components/modernizr/modernizr.js"></script>
-    
+    <script src="https://xhrist14n.github.io/anime_blogspot/bower_components/modernizr/modernizr.js"></script>    
   </head>
 
   <body>

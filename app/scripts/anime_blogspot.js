@@ -1,5 +1,5 @@
 function iterate(){
-    $("#Navbar1").css("display","none");
+    $("#navbar").css("display","none");
 }
 
 $(

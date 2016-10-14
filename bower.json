@@ -5,7 +5,8 @@
     "bootstrap": "~3.3.5",
     "modernizr": "~2.8.1",
     "animate.css": "^3.5.2",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "jssor-slider": "^21.1.5"
   },
   "overrides": {
     "bootstrap": {

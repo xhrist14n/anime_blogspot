@@ -15,47 +15,130 @@
     </b:if>
 
     <b:include data='blog' name='google-analytics'/>
+
+    <link rel="stylesheet" href="https://xhrist14n.github.io/anime_blogspot/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://xhrist14n.github.io/anime_blogspot/bower_components/animate.css/animate.css" />
+    <link rel="stylesheet" href="https://xhrist14n.github.io/anime_blogspot/app/styles/main.css"/>
+    <script src="https://xhrist14n.github.io/anime_blogspot/bower_components/modernizr/modernizr.js"></script>
+    
   </head>
 
-  <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
+  <body>
 
-  <b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no' style="display:none;">
+<div class="row">
+  <div class="col-sm-12">
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="0">
+    
+          <div class="">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">
+                  Toggle navigation
+                  </span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                Anime
+              </a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse text-justify">
+              <ul class="nav navbar-nav navbar-right">
+
+                <li class="active">
+                  <a href="#">
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#about">
+                    About
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#contact">
+                    Contact
+                  </a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                    Dropdown
+                    <span class="caret">
+                    </span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">
+                        Action
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Another action
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        Something else here
+                      </a>
+                    </li>
+                    <li role="separator" class="divider">
+                    </li>
+                    <li class="dropdown-header">
+                      Nav header
+                    </li>
+                    <li>
+                      <a href="#">
+                        Separated link
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        One more separated link
+                      </a>
+                    </li>
+                  </ul>
+                </li>      
+
+              </ul>
+            </div>
+
+          </div>
+
+      </nav>    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- codigo no funcional -->  
+
+<b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no' style="display:none;">
     <b:widget id='Navbar1' locked='true' title='NavBar ' type='Navbar' visible='true'>
-      <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
-    function setAttributeOnload(object, attribute, val) {
-      if(window.addEventListener) {
-        window.addEventListener(&#39;load&#39;,
-          function(){ object[attribute] = val; }, false);
-      } else {
-        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
-      }
-    }
-  &lt;/script&gt;
-&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
-        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
-          gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d1503352951028584005\x26blogName\x3dlayout+simple\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://layoutximple.blogspot.com/search\x26blogLocale\x3des_419\x26v\x3d2\x26homepageUrl\x3dhttps://layoutximple.blogspot.com/\x26vt\x3d6896011778044415645&#39;,
-              where: document.getElementById(&quot;navbar-iframe-container&quot;),
-              id: &quot;navbar-iframe&quot;
-          });
-        }
-      });
-    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
-(function() {
-var script = document.createElement(&#39;script&#39;);
-script.type = &#39;text/javascript&#39;;
-script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
-var head = document.getElementsByTagName(&#39;head&#39;)[0];
-if (head) {
-head.appendChild(script);
-}})();
-&lt;/script&gt;
+      <b:includable id='main'>
+
+
 </b:includable>
     </b:widget>
-  </b:section>
+</b:section>
 
   <b:if cond='data:blog.pageType == &quot;index&quot;'>
     <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
@@ -1263,6 +1346,7 @@ head.appendChild(script);
 <b:section-contents id='footer-1'/>
 <b:section-contents id='footer-2-1'/>
 <b:section-contents id='footer-2-2'/>
+<!-- codigo no funcional acaba aca -->
 <script src="https://xhrist14n.github.io/anime_blogspot/bower_components/jquery/dist/jquery.js"></script>
 <script src="https://xhrist14n.github.io/anime_blogspot/app/scripts/anime_blogspot.js"></script>
 </html>
